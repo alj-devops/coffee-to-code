@@ -1,0 +1,19 @@
+{
+  "title": "Coffee to Code",
+  "author": "Bob",
+  "breadcrumb": [
+    {
+      "text": "home",
+      "url": "/",
+      "variation": "primary"
+    },
+    {
+      "text": "about-coffee",
+      "url": "/about-coffee"
+    },
+    {
+      "text": "how-to-drink-coffee",
+      "url": "/how-to-drink-coffee"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{% macro blocks(blocks) %}
+  {% for block in blocks %}
+    {% if block.heading %}
+      <h3>{{ block.heading }}</h3>
+    {% endif %}
+    {% if block.body %}
+      {% for paragraph in block.body %}
+        <p>{{ paragraph }}</p>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endmacro %}
+
+{% macro conversionButtons(blocks) %}
+  <h3>Want to know more about coffee?</h3>
+  <a class="button" href="about-coffee">Learn more</a>
+  <a class="button" href="how-to-drink-coffee">Coffee Types</a>
+{% endmacro %}
