@@ -1,7 +1,7 @@
 const sharedPageData = require('../page-data/shared.json');
 const homePageData = require('../page-data/home.json');
 const aboutPageData = require('../page-data/about-coffee.json');
-const howToDrinkPageData = require('../page-data/how-to-drink-coffee.json');
+const coffeeTypesPageData = require('../page-data/coffee-types.json');
 
 module.exports = (app) => {
   app.use(require('./view-data'));
@@ -14,8 +14,8 @@ module.exports = (app) => {
     res.render('pages/about-coffee.html', { shared: sharedPageData, page: aboutPageData });
   });
 
-  app.get('/how-to-drink-coffee', (req, res) => {
-    res.render('pages/how-to-drink-coffee.html', { shared: sharedPageData, page: howToDrinkPageData });
+  app.get('/coffee-types', (req, res) => {
+    res.render('pages/coffee-types.html', { shared: sharedPageData, page: coffeeTypesPageData });
   });
 
   app.get('/*', (req, res) => {
