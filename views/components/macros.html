@@ -1,18 +1,23 @@
 {% macro blocks(blocks) %}
-  {% for block in blocks %}
-    {% if block.heading %}
-      <h3>{{ block.heading }}</h3>
-    {% endif %}
-    {% if block.body %}
-      {% for paragraph in block.body %}
-        <p>{{ paragraph }}</p>
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+  <div class="blocks">
+    {% for block in blocks %}
+      <div class="block">
+        {% if block.heading %}
+          <h3 class="block-heading">{{ block.heading }}</h3>
+        {% endif %}
+        {% if block.body %}
+          {% for paragraph in block.body %}
+            <p class="block-paragraph">{{ paragraph | safe }}</p>
+          {% endfor %}
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
 {% endmacro %}
 
-{% macro conversionButtons(blocks) %}
-  <h3>Want to know more about coffee?</h3>
-  <a class="button" href="about-coffee">Learn more</a>
-  <a class="button" href="coffee-types">Coffee Types</a>
+{% macro conversionBlock(shared) %}
+  <div class="conversion-block">
+    <h3>Want to know more about coffee?</h3>
+    <a class="conversion-button" href="{{ shared.email }}">Order a Coffee</a>
+  </div>
 {% endmacro %}
