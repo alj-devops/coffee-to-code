@@ -4,3 +4,10 @@
   {% include './breadcrumb.html' %}
 </header>
 <h2>{{ page.title }}</h2>
+{% if page.intro %}
+  <div class="intro">
+    {% for paragraph in page.intro %}
+      <p>{{ paragraph | safe }}</p>
+    {% endfor %}
+  </div>
+{% endif %}

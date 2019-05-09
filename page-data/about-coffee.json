@@ -1,13 +1,11 @@
 {
   "title": "About Coffee",
+  "intro": [
+    "Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content. It is one of the most popular drinks in the world, and it can be prepared and presented in a variety of ways (e.g., espresso, French press, café latte). It is usually served hot, although iced coffee is a popular alternative. Clinical studies indicate that moderate coffee consumption is benign or mildly beneficial in healthy adults, with continuing research on whether long-term consumption lowers the risk of some diseases, although those long-term studies are of generally poor quality.",
+    "The earliest credible evidence of coffee-drinking appears in modern-day Yemen in southern Arabia in the middle of the 15th century in Sufi shrines. It was here in Arabia that coffee seeds were first roasted and brewed in a similar way to how it is now prepared. But the coffee seeds had to be first exported from East Africa to Yemen, as the Coffea arabica plant is thought to have been indigenous to the former. The Yemenis obtained their coffee via Somali traders from Berbera (who in turn procured the beans from the Ethiopian Highlands) and began to cultivate the seed. By the 16th century, the drink had reached Persia, Turkey, and North Africa. From there, it spread to Europe and the rest of the world.",
+    "As of 2016, Brazil was the leading grower of coffee beans, producing one-third of the world total. Coffee is a major export commodity, being the top legal agricultural export for numerous countries.[not in citation given] It is one of the most valuable commodities exported by developing countries. Green, unroasted coffee is one of the most traded agricultural commodities in the world. Some controversy has been associated with coffee cultivation and the way developed countries trade with developing nations, as well as the impact on the environment with regards to the clearing of land for coffee-growing and water use. Consequently, the markets for fair trade and organic coffee are expanding, notably in the USA."
+  ],
   "blocks": [
-    {
-      "body": [
-        "Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content. It is one of the most popular drinks in the world, and it can be prepared and presented in a variety of ways (e.g., espresso, French press, café latte). It is usually served hot, although iced coffee is a popular alternative. Clinical studies indicate that moderate coffee consumption is benign or mildly beneficial in healthy adults, with continuing research on whether long-term consumption lowers the risk of some diseases, although those long-term studies are of generally poor quality.",
-        "The earliest credible evidence of coffee-drinking appears in modern-day Yemen in southern Arabia in the middle of the 15th century in Sufi shrines. It was here in Arabia that coffee seeds were first roasted and brewed in a similar way to how it is now prepared. But the coffee seeds had to be first exported from East Africa to Yemen, as the Coffea arabica plant is thought to have been indigenous to the former. The Yemenis obtained their coffee via Somali traders from Berbera (who in turn procured the beans from the Ethiopian Highlands) and began to cultivate the seed. By the 16th century, the drink had reached Persia, Turkey, and North Africa. From there, it spread to Europe and the rest of the world.",
-        "As of 2016, Brazil was the leading grower of coffee beans, producing one-third of the world total. Coffee is a major export commodity, being the top legal agricultural export for numerous countries.[not in citation given] It is one of the most valuable commodities exported by developing countries. Green, unroasted coffee is one of the most traded agricultural commodities in the world. Some controversy has been associated with coffee cultivation and the way developed countries trade with developing nations, as well as the impact on the environment with regards to the clearing of land for coffee-growing and water use. Consequently, the markets for fair trade and organic coffee are expanding, notably in the USA."
-      ]
-    },
     {
       "heading": "Etymology",
       "body": [
@@ -31,7 +29,7 @@
     },
     {
       "body": [
-        "<a href=\"https://en.wikipedia.org/wiki/Coffee\" target=\"_blank\">More about coffee</a>"
+        "<a href=\"https://en.wikipedia.org/wiki/Coffee\" target=\"_blank\">Read the full article here</a>"
       ]
     }
   ]
