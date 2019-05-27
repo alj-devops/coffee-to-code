@@ -6,7 +6,7 @@
 
 2. **Code**: You can edit the code directly in the Glitch editor or use your editor of choice (VSCode, Sublime, etc) and copy paste the files into Glitch. Git import and export is also available in the Tools menu on the bottom left. How you edit the code is entirely up to you, so long as your finished work is viewable at the URL created in the previous step.
 
-NOTE: Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+> **NOTE**: Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
 4. **Turn in**: When you finish coding, send your URL to us so we can review your code. 
 
