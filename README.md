@@ -24,7 +24,7 @@ NOTE: Click `Show` in the header to see your app live. Updates to your code will
 
 ### Part II: Make Responsive
 
--  Make the "Code to Coffee" website fully responsive so that it can be viewed properly on smart phones.
+-  Make the "Code to Coffee" website fully responsive so that it can be viewed properly on any common device.
 
 ---
 
