@@ -6,7 +6,7 @@
 
 2. **Code**: You can edit the code directly in the Glitch editor or use your editor of choice (VSCode, Sublime, etc) and copy paste the files into Glitch. Git import and export is also available in the Tools menu on the bottom left. How you edit the code is entirely up to you, so long as your finished work is viewable at the URL created in the previous step.
 
->> **NOTE**: Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+> **NOTE**: Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
 4. **Turn in**: When you finish coding, send your URL to us so we can review your code. 
 
@@ -20,7 +20,7 @@
 
 2. Next, we want to modify the coffee-types page to just show a snippet of the description showing the first two lines of text from the coffee description. Add a "Read more" link that links to the coffee-info pages built in step #1. The rest of the description text can be read on the coffee-info page.
 
-3. After you have finished steps #1 and #2, create your own coffee page for your favorite coffee (or other drink if you don't drink coffee :)). Make sure that your new coffee page gets listed on the "Types of Coffee" page with the other coffees.
+3. After you have finished steps 1 and 2, create your own coffee page for your favorite coffee (or other drink if you don't drink coffee). Make sure that your new coffee page gets listed on the "Types of Coffee" page with the other coffees.
 
 ### Part II: Make Responsive
 
