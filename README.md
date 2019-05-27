@@ -1,6 +1,6 @@
 # Coffee to Code Front-End Coding Challenge
 
-## Glitch Instructions
+## Create Your Project
 
 1. **Clone**: Go to this URL: https://glitch.com/~coffee-to-code and click the `Remix your own` button to clone the code. This will copy all the code to a new, randomly generated URL (e.g. https://glitch.com/edit/#!/capable-toothpaste). This is your URL to code on, no other candidates will have this URL.
 
