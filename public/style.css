@@ -29,22 +29,22 @@ h2 {
 a {
   color: #2c2c3d;
 }
-.ns-breadcrumb {
+.ns-navigation {
   display: inline-flex;
   margin-left: auto;
 }
-.ns-breadcrumb .crumb {
+.ns-navigation .nav-item {
   margin: 0 1rem;
   color: #6b615e;
   border-bottom: 2px solid #f86952;
   text-decoration: none;
 }
-.ns-breadcrumb .crumb.primary::before {
+.ns-navigation .nav-item.primary::before {
   content: '\027A4';
   padding-right: 5px;
 }
-.ns-breadcrumb .crumb.current,
-.ns-breadcrumb .crumb:hover {
+.ns-navigation .nav-item.current,
+.ns-navigation .nav-item:hover {
   color: #2c2c3d;
   border-bottom: 2px solid #bb503f;
 }
@@ -71,10 +71,10 @@ a {
 header.ns-home {
   flex-direction: column;
 }
-header.ns-home .crumb.current {
+header.ns-home .nav-item.current {
   display: none;
 }
-.ns-home .ns-breadcrumb {
+.ns-home .ns-navigation {
   display: inline-flex;
   margin-left: 0;
 }

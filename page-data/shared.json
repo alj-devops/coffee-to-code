@@ -2,7 +2,7 @@
   "title": "Coffee to Code",
   "author": "Bob",
   "email": "mailto:gimmecoffee@bobswebsites.com",
-  "breadcrumb": [
+  "navigation": [
     {
       "text": "Home",
       "url": "/",

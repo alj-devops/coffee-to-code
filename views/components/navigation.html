@@ -1,0 +1,5 @@
+<p class="ns-navigation">
+  {% for item in shared.navigation %}
+    <a class="nav-item{% if _url == item.url %} current{% endif %}{% if item.variation %} {{ item.variation }}{% endif %}" href="{{ item.url }}">{{ item.text }}</a>
+  {% endfor %}
+</p>
